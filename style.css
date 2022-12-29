@@ -6,16 +6,8 @@ body {
     animation: anim2 5s linear;
 }
 
-@keyframes anim2 {
-    0% {
-        background-image: linear-gradient(#FFFFFF, #000, #FFFFFF, #000);
 
-    }
 
-    100% {
-        background-image: linear-gradient(#D16B7D, #E79C86, #5FFBBB);
-    }
-}
 
 .navbar {
     background-color: linear-gradient(#37D5D6, #36096D) !important;
