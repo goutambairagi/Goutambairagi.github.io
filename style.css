@@ -1,0 +1,234 @@
+body {
+    /* background-image: linear-gradient(#37D5D6, #36096D); */
+    background-image: linear-gradient(#D16B7D, #E79C86, #5FFBBB);
+    /* background-image: linear-gradient(#CBD16B,#0B4B93,#CBD16B); */
+    height: auto;
+    animation: anim2 5s linear;
+}
+
+@keyframes anim2 {
+    0% {
+        background-image: linear-gradient(#FFFFFF, #000, #FFFFFF, #000);
+
+    }
+
+    100% {
+        background-image: linear-gradient(#D16B7D, #E79C86, #5FFBBB);
+    }
+}
+
+.navbar {
+    background-color: linear-gradient(#37D5D6, #36096D) !important;
+}
+
+.mytext1 {
+    margin-top: 220px;
+    display: inline-block;
+}
+
+.mydiv2 {
+    margin-left: 135px;
+
+}
+
+.mydiv1 {
+    margin-top: 135px;
+    display: inline-block;
+}
+
+
+
+.mydiv3 {
+    display: inline-block;
+}
+
+.myimg2 {
+    margin-top: 117px;
+    height: 400px;
+}
+
+.mytext2 {
+    margin-top: 210px;
+    position: relative;
+
+}
+
+.mytext3 {
+    margin-top: 150px;
+    justify-content: space-around;
+}
+
+.mytext4 {
+    margin-top: 150px;
+}
+
+.mydiv {
+    justify-content: space-around;
+    display: flex;
+}
+
+.fa-html5 {
+    height: 200px;
+    width: 200px;
+    background-color: aliceblue;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    padding: 26px;
+    color: #e34c26;
+    display: flex;
+}
+
+.fa-css3-alt {
+    height: 200px;
+    width: 200px;
+    background-color: aliceblue;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    padding: 26px;
+    color: #264de4;
+}
+
+.fa-bootstrap {
+    height: 200px;
+    width: 200px;
+    background-color: aliceblue;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    padding-top: 30px;
+    color: #563d7c;
+}
+
+.fa-square-js {
+    height: 200px;
+    width: 200px;
+    background-color: aliceblue;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    padding: 30px;
+    color: #fff000;
+}
+
+.fa-brands {
+    margin-top: 22px;
+}
+
+i:hover {
+
+    transform: scale(1.5);
+    color: black;
+}
+
+i {
+    transition: all 0.3s linear;
+}
+
+.mytext5 {
+    margin-top: 150px;
+}
+
+.footertext {
+    margin-top: 250px;
+    /* background-color: #080e2c; */
+}
+
+.navbar1 {
+    position: relative;
+}
+
+.navbar1 a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background-color: #323278;
+    transition: all 0.5s linear;
+}
+
+.navbar1 a:hover::before {
+    width: 85%;
+    background-color: #2d55ff;
+}
+
+
+
+.mytext2 i:hover {
+    cursor: pointer;
+    color: #0f0ade;
+    transition: all 1.5s ease linear;
+    position: absolute;
+    transform: rotate(360deg);
+
+}
+
+
+
+
+.btn1 {
+    border: none;
+    background-color: #2d55ff;
+    color: white;
+    border-radius: 8px;
+    height: 35px;
+    width: 50px;
+
+}
+
+.btn2 {
+    border: none;
+    border-radius: 8px;
+    height: 35px;
+}
+
+.mytext1 .btn2:hover {
+    background-color: #2d55ff;
+    color: white;
+    transition: all 0.3s linear;
+}
+
+.mytext3 .btn3:hover {
+    width: 200px;
+    background-color: white;
+    color: black;
+    transition: all 0.5s linear;
+}
+
+.iconss {
+    position: fixed;
+    top: 100px;
+    /* left: 220p; */
+    right: 10px;
+}
+
+.iconss i:hover {
+  color: #0f0ade;
+  transform: rotate(360deg);
+  position: absolute;
+}
+
+.navbar-brand{
+font-weight: bold;
+}
+
+
+@media only screen and  (max-width: 450px  ) {
+
+ .mydiv2{
+    margin-left: 40px  !important;
+   
+ }  
+ 
+ .mytext1{
+    margin-top: 120px !important;
+ }
+    
+}
